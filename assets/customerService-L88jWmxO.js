@@ -1,1 +1,0 @@
-import{a as e}from"./index-Dk8l6Cr7.js";const o={list:s=>e.get("/customers",{params:s}),show:s=>e.get("/customers/show",{params:{id:s}}),create:s=>e.post("/customers",s),update:s=>e.put("/customers",s),archive:s=>e.delete("/customers",{data:{id:s}})};export{o as c};

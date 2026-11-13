@@ -1,1 +1,0 @@
-import{a as e}from"./index-Dk8l6Cr7.js";const s={skipAuthRefresh:!0,skipCsrf:!0},o={list:t=>e.get("/portal-links",{params:t}),create:t=>e.post("/portal-links",t),revoke:t=>e.post("/portal-links/revoke",{id:t}),access:(t,r={})=>e.get("/public/customer-portal",{params:{token:t,track:r.track===!1?"0":"1"},...s})};export{o as p};

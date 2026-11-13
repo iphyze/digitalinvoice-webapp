@@ -1,0 +1,1 @@
+import{a as i}from"./index-JXibIFtz.js";const o={options:()=>i.get("/firs/options"),status:()=>i.get("/firs/status"),classificationCodes:s=>i.get("/firs/classification-codes",{params:{kind:s}}),submissionQueue:s=>i.get("/firs/submission-queue",{params:s?{invoice_id:s}:{}}),invoiceReadiness:s=>i.post("/firs/invoice-readiness",{invoice_id:s})};export{o as f};
