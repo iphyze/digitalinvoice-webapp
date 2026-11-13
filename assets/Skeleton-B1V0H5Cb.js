@@ -1,0 +1,1 @@
+import{j as t}from"./index-CRbuQI0t.js";function o({width:r,height:s="0.75rem",radius:e="var(--radius-sm)",className:a="",style:i}){return t.jsx("span",{className:`fx-shimmer ${a}`,style:{display:"block",width:r,height:s,borderRadius:e,...i},"aria-hidden":"true"})}export{o as S};
