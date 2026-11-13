@@ -1,0 +1,1 @@
+function o(n,e){if(!n||!["/verify-email","/reset-password"].includes(e))return null;try{const t=new URL(n);if(!["http:","https:"].includes(t.protocol)||t.pathname!==e)return null;const r=t.searchParams.get("token");return r?`${e}?token=${encodeURIComponent(r)}`:null}catch{return null}}export{o as d};
