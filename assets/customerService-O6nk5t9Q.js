@@ -1,0 +1,1 @@
+import{a as e}from"./index-SH_7ljxJ.js";const o={list:s=>e.get("/customers",{params:s}),show:s=>e.get("/customers/show",{params:{id:s}}),create:s=>e.post("/customers",s),update:s=>e.put("/customers",s),archive:s=>e.delete("/customers",{data:{id:s}})};export{o as c};

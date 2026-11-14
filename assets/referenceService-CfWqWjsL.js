@@ -1,0 +1,1 @@
+import{a as t}from"./index-SH_7ljxJ.js";const a={units:()=>t.get("/reference/units"),createUnit:e=>t.post("/reference/units",e),taxRates:e=>t.get("/reference/tax-rates",{params:e}),createTaxRate:e=>t.post("/reference/tax-rates",e),updateTaxRate:e=>t.put("/reference/tax-rates",e)};export{a as r};

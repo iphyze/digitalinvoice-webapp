@@ -1,0 +1,6 @@
+import{l as p,r as t,j as s}from"./index-SH_7ljxJ.js";import{T as c}from"./TextField-B07v84cB.js";import{L as l}from"./lock-zDNEAghs.js";import{E as f}from"./eye-RBA33Ev1.js";/**
+ * @license lucide-react v1.11.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const w=[["path",{d:"M10.733 5.076a10.744 10.744 0 0 1 11.205 6.575 1 1 0 0 1 0 .696 10.747 10.747 0 0 1-1.444 2.49",key:"ct8e1f"}],["path",{d:"M14.084 14.158a3 3 0 0 1-4.242-4.242",key:"151rxh"}],["path",{d:"M17.479 17.499a10.75 10.75 0 0 1-15.417-5.151 1 1 0 0 1 0-.696 10.75 10.75 0 0 1 4.446-5.143",key:"13bj9a"}],["path",{d:"m2 2 20 20",key:"1ooewy"}]],m=p("eye-off",w),x="_toggle_w5tyf_1",y="_swap_w5tyf_18",a={toggle:x,swap:y},b=t.forwardRef(function({icon:o=l,...r},i){const[e,d]=t.useState(!1);return s.jsx(c,{ref:i,icon:o,type:e?"text":"password",trailing:s.jsxs("button",{type:"button",className:a.toggle,onClick:()=>d(n=>!n),"aria-label":e?"Hide password":"Show password","aria-pressed":e,children:[s.jsx("span",{className:a.swap,"data-on":!e,children:s.jsx(f,{size:17,"aria-hidden":"true"})}),s.jsx("span",{className:a.swap,"data-on":e,children:s.jsx(m,{size:17,"aria-hidden":"true"})})]}),...r})});export{b as P};
